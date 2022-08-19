@@ -26,7 +26,7 @@ public class GeekTimeHandler {
     private final String COOKIE = "your cookie";
     private final String articleUrl = "https://time.geekbang.org/serv/v1/article";
     private final String productInfoUrl = "https://time.geekbang.org/serv/v3/column/info";
-    private String basePath = "/Users/wulingren/Desktop/geektime/";
+    private final String basePath = "/Users/wulingren/Desktop/geektime/";
     private String titleDir = "/";
 
     private HttpHeaders headers = new HttpHeaders();

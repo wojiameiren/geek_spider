@@ -2,7 +2,6 @@ package com.wulingren.spider;
 
 import com.wulingren.spider.handler.GeekTimeHandler;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
