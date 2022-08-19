@@ -14,12 +14,9 @@ import java.util.List;
  * @date: 2022/08/18 22:04
  **/
 public class SpiderMain {
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         List<Long> products = new ArrayList<>();
         products.add(148L);
-
-
-
         new GeekTimeHandler().spider(products);
     }
 }
